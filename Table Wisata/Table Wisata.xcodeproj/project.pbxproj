@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3E5B441F95DE5500D0130F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B431F95DE5500D0130F /* AppDelegate.swift */; };
+		AC3E5B461F95DE5500D0130F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B451F95DE5500D0130F /* ViewController.swift */; };
+		AC3E5B491F95DE5500D0130F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3E5B471F95DE5500D0130F /* Main.storyboard */; };
+		AC3E5B4B1F95DE5500D0130F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3E5B4A1F95DE5500D0130F /* Assets.xcassets */; };
+		AC3E5B4E1F95DE5500D0130F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3E5B4C1F95DE5500D0130F /* LaunchScreen.storyboard */; };
+		AC3E5B591F95DE5500D0130F /* Table_WisataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B581F95DE5500D0130F /* Table_WisataTests.swift */; };
+		AC3E5B641F95DE5500D0130F /* Table_WisataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B631F95DE5500D0130F /* Table_WisataUITests.swift */; };
+		AC3E5B721F95DF3600D0130F /* WisataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B711F95DF3600D0130F /* WisataTableViewController.swift */; };
+		AC3E5B741F95EEC100D0130F /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B731F95EEC100D0130F /* MapKitViewController.swift */; };
+		AC3E5B761F96093E00D0130F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E5B751F96093E00D0130F /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC3E5B551F95DE5500D0130F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3E5B381F95DE5500D0130F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3E5B3F1F95DE5500D0130F;
+			remoteInfo = "Table Wisata";
+		};
+		AC3E5B601F95DE5500D0130F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3E5B381F95DE5500D0130F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3E5B3F1F95DE5500D0130F;
+			remoteInfo = "Table Wisata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3E5B401F95DE5500D0130F /* Table Wisata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table Wisata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3E5B431F95DE5500D0130F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC3E5B451F95DE5500D0130F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC3E5B481F95DE5500D0130F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC3E5B4A1F95DE5500D0130F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC3E5B4D1F95DE5500D0130F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC3E5B4F1F95DE5500D0130F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3E5B541F95DE5500D0130F /* Table WisataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table WisataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3E5B581F95DE5500D0130F /* Table_WisataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_WisataTests.swift; sourceTree = "<group>"; };
+		AC3E5B5A1F95DE5500D0130F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3E5B5F1F95DE5500D0130F /* Table WisataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table WisataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3E5B631F95DE5500D0130F /* Table_WisataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_WisataUITests.swift; sourceTree = "<group>"; };
+		AC3E5B651F95DE5500D0130F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3E5B711F95DF3600D0130F /* WisataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataTableViewController.swift; sourceTree = "<group>"; };
+		AC3E5B731F95EEC100D0130F /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		AC3E5B751F96093E00D0130F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3E5B3D1F95DE5500D0130F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3E5B511F95DE5500D0130F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3E5B5C1F95DE5500D0130F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3E5B371F95DE5500D0130F = {
+			isa = PBXGroup;
+			children = (
+				AC3E5B421F95DE5500D0130F /* Table Wisata */,
+				AC3E5B571F95DE5500D0130F /* Table WisataTests */,
+				AC3E5B621F95DE5500D0130F /* Table WisataUITests */,
+				AC3E5B411F95DE5500D0130F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3E5B411F95DE5500D0130F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E5B401F95DE5500D0130F /* Table Wisata.app */,
+				AC3E5B541F95DE5500D0130F /* Table WisataTests.xctest */,
+				AC3E5B5F1F95DE5500D0130F /* Table WisataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3E5B421F95DE5500D0130F /* Table Wisata */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E5B431F95DE5500D0130F /* AppDelegate.swift */,
+				AC3E5B451F95DE5500D0130F /* ViewController.swift */,
+				AC3E5B471F95DE5500D0130F /* Main.storyboard */,
+				AC3E5B4A1F95DE5500D0130F /* Assets.xcassets */,
+				AC3E5B4C1F95DE5500D0130F /* LaunchScreen.storyboard */,
+				AC3E5B4F1F95DE5500D0130F /* Info.plist */,
+				AC3E5B711F95DF3600D0130F /* WisataTableViewController.swift */,
+				AC3E5B731F95EEC100D0130F /* MapKitViewController.swift */,
+				AC3E5B751F96093E00D0130F /* DetailViewController.swift */,
+			);
+			path = "Table Wisata";
+			sourceTree = "<group>";
+		};
+		AC3E5B571F95DE5500D0130F /* Table WisataTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E5B581F95DE5500D0130F /* Table_WisataTests.swift */,
+				AC3E5B5A1F95DE5500D0130F /* Info.plist */,
+			);
+			path = "Table WisataTests";
+			sourceTree = "<group>";
+		};
+		AC3E5B621F95DE5500D0130F /* Table WisataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E5B631F95DE5500D0130F /* Table_WisataUITests.swift */,
+				AC3E5B651F95DE5500D0130F /* Info.plist */,
+			);
+			path = "Table WisataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3E5B3F1F95DE5500D0130F /* Table Wisata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3E5B681F95DE5500D0130F /* Build configuration list for PBXNativeTarget "Table Wisata" */;
+			buildPhases = (
+				AC3E5B3C1F95DE5500D0130F /* Sources */,
+				AC3E5B3D1F95DE5500D0130F /* Frameworks */,
+				AC3E5B3E1F95DE5500D0130F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Table Wisata";
+			productName = "Table Wisata";
+			productReference = AC3E5B401F95DE5500D0130F /* Table Wisata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC3E5B531F95DE5500D0130F /* Table WisataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3E5B6B1F95DE5500D0130F /* Build configuration list for PBXNativeTarget "Table WisataTests" */;
+			buildPhases = (
+				AC3E5B501F95DE5500D0130F /* Sources */,
+				AC3E5B511F95DE5500D0130F /* Frameworks */,
+				AC3E5B521F95DE5500D0130F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3E5B561F95DE5500D0130F /* PBXTargetDependency */,
+			);
+			name = "Table WisataTests";
+			productName = "Table WisataTests";
+			productReference = AC3E5B541F95DE5500D0130F /* Table WisataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC3E5B5E1F95DE5500D0130F /* Table WisataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3E5B6E1F95DE5500D0130F /* Build configuration list for PBXNativeTarget "Table WisataUITests" */;
+			buildPhases = (
+				AC3E5B5B1F95DE5500D0130F /* Sources */,
+				AC3E5B5C1F95DE5500D0130F /* Frameworks */,
+				AC3E5B5D1F95DE5500D0130F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3E5B611F95DE5500D0130F /* PBXTargetDependency */,
+			);
+			name = "Table WisataUITests";
+			productName = "Table WisataUITests";
+			productReference = AC3E5B5F1F95DE5500D0130F /* Table WisataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3E5B381F95DE5500D0130F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AbiSayuti;
+				TargetAttributes = {
+					AC3E5B3F1F95DE5500D0130F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AC3E5B531F95DE5500D0130F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC3E5B3F1F95DE5500D0130F;
+					};
+					AC3E5B5E1F95DE5500D0130F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC3E5B3F1F95DE5500D0130F;
+					};
+				};
+			};
+			buildConfigurationList = AC3E5B3B1F95DE5500D0130F /* Build configuration list for PBXProject "Table Wisata" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3E5B371F95DE5500D0130F;
+			productRefGroup = AC3E5B411F95DE5500D0130F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3E5B3F1F95DE5500D0130F /* Table Wisata */,
+				AC3E5B531F95DE5500D0130F /* Table WisataTests */,
+				AC3E5B5E1F95DE5500D0130F /* Table WisataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3E5B3E1F95DE5500D0130F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E5B4E1F95DE5500D0130F /* LaunchScreen.storyboard in Resources */,
+				AC3E5B4B1F95DE5500D0130F /* Assets.xcassets in Resources */,
+				AC3E5B491F95DE5500D0130F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3E5B521F95DE5500D0130F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3E5B5D1F95DE5500D0130F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3E5B3C1F95DE5500D0130F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E5B461F95DE5500D0130F /* ViewController.swift in Sources */,
+				AC3E5B441F95DE5500D0130F /* AppDelegate.swift in Sources */,
+				AC3E5B761F96093E00D0130F /* DetailViewController.swift in Sources */,
+				AC3E5B741F95EEC100D0130F /* MapKitViewController.swift in Sources */,
+				AC3E5B721F95DF3600D0130F /* WisataTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3E5B501F95DE5500D0130F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E5B591F95DE5500D0130F /* Table_WisataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3E5B5B1F95DE5500D0130F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E5B641F95DE5500D0130F /* Table_WisataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3E5B561F95DE5500D0130F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3E5B3F1F95DE5500D0130F /* Table Wisata */;
+			targetProxy = AC3E5B551F95DE5500D0130F /* PBXContainerItemProxy */;
+		};
+		AC3E5B611F95DE5500D0130F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3E5B3F1F95DE5500D0130F /* Table Wisata */;
+			targetProxy = AC3E5B601F95DE5500D0130F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC3E5B471F95DE5500D0130F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3E5B481F95DE5500D0130F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC3E5B4C1F95DE5500D0130F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3E5B4D1F95DE5500D0130F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3E5B661F95DE5500D0130F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3E5B671F95DE5500D0130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3E5B691F95DE5500D0130F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Table Wisata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Table-Wisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3E5B6A1F95DE5500D0130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Table Wisata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Table-Wisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC3E5B6C1F95DE5500D0130F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Table WisataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Table-WisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table Wisata.app/Table Wisata";
+			};
+			name = Debug;
+		};
+		AC3E5B6D1F95DE5500D0130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Table WisataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Table-WisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table Wisata.app/Table Wisata";
+			};
+			name = Release;
+		};
+		AC3E5B6F1F95DE5500D0130F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Table WisataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Table-WisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Table Wisata";
+			};
+			name = Debug;
+		};
+		AC3E5B701F95DE5500D0130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Table WisataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smkidnmi.Table-WisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Table Wisata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3E5B3B1F95DE5500D0130F /* Build configuration list for PBXProject "Table Wisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E5B661F95DE5500D0130F /* Debug */,
+				AC3E5B671F95DE5500D0130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3E5B681F95DE5500D0130F /* Build configuration list for PBXNativeTarget "Table Wisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E5B691F95DE5500D0130F /* Debug */,
+				AC3E5B6A1F95DE5500D0130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3E5B6B1F95DE5500D0130F /* Build configuration list for PBXNativeTarget "Table WisataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E5B6C1F95DE5500D0130F /* Debug */,
+				AC3E5B6D1F95DE5500D0130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3E5B6E1F95DE5500D0130F /* Build configuration list for PBXNativeTarget "Table WisataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E5B6F1F95DE5500D0130F /* Debug */,
+				AC3E5B701F95DE5500D0130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3E5B381F95DE5500D0130F /* Project object */;
+}
