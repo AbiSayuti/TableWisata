@@ -29,7 +29,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="K4z-p8-T9E" id="PqG-Nc-dxz">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -39,10 +39,13 @@
                             <outlet property="delegate" destination="UZk-wd-zNc" id="xKT-YU-ivh"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="Kd1-gz-T1j" kind="modal" identifier="PassdataDetail" id="eiP-Yk-gqg"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8u-ui-DUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1022" y="67"/>
+            <point key="canvasLocation" x="833" y="50"/>
         </scene>
         <!--Map Kit View Controller-->
         <scene sceneID="01w-vn-Ivl">
@@ -63,7 +66,7 @@
                                     <navigationItem title="Detail Map" id="QiQ-4I-WkE">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="yzt-8f-Mso">
                                             <connections>
-                                                <segue destination="UZk-wd-zNc" kind="modal" id="BFf-Tv-adF"/>
+                                                <segue destination="UZk-wd-zNc" kind="modal" id="ogD-7t-aXX"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -79,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AUt-Ts-hba" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="-145"/>
+            <point key="canvasLocation" x="1866" y="673"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="dAM-9H-cmp">
@@ -93,7 +96,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Detail Wisata" id="1BE-It-cQm"/>
+                                    <navigationItem title="Detail Wisata" id="1BE-It-cQm">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="8UF-0O-Uzf">
+                                            <connections>
+                                                <segue destination="UZk-wd-zNc" kind="modal" id="6UQ-Aa-g9k"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="labuan-cermin" translatesAutoresizingMaskIntoConstraints="NO" id="bJu-9Q-Ouv">
@@ -114,10 +123,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z38-V4-gYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2687.1999999999998" y="16.641679160419791"/>
+            <point key="canvasLocation" x="2998" y="9"/>
         </scene>
     </scenes>
     <resources>
         <image name="labuan-cermin" width="630" height="420"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="6UQ-Aa-g9k"/>
+    </inferredMetricsTieBreakers>
 </document>

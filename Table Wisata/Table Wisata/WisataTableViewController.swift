@@ -9,6 +9,12 @@
 import UIKit
 
 class WisataTableViewController: UITableViewController {
+    
+    //deklarasi namaSelected dan gambarSelected untuk mengirimkan data
+    
+    var namaSelected:String?
+    var gambarSelected:String?
+    
     //deklarasi nama pantai
     
     var NamaPantai = ["kemala-beach", "Pantai-Lamaru", "labuan-cermin"]
