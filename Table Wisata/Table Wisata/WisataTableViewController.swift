@@ -60,6 +60,38 @@ class WisataTableViewController: UITableViewController {
         cell.imageView?.image = imageName
         
         return cell
+    
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //mengecek data yang terkirim
+        print("Row \(indexPath.row)selected")
+        //memasukkan data ke variable namaSelected dan imageSelected ke masing2 variablenya
+        
+        namaSelected = self.NamaPantai[indexPath.row]
+        gambarSelected = self.NamaPantai[indexPath.row]
+        //memanggil segue passDataDetail
+        performSegue(withIdentifier: "PassdataDetail", sender: self)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        //mengecek apakah seguenya ada atau tidak
+        if segue.identifier == "PassdataDetail" {
+            //kondisi ketika segue nya ada
+            //mengirimkan data ke detailViewController
+            let kirimData = segue.destination as! DetailViewController
+            //mengirimkan data ke masing2 variabel
+            //mengirimkan data gambar wisata
+            kirimData.passnamawisata = namaSelected
+            //mengirimkan data gambar wisata
+            kirimData.passGambarWisata = gambarSelected
+        
+        
+    }
+    
     }
     override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         

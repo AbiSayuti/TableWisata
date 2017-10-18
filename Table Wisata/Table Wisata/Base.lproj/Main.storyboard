@@ -120,6 +120,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="8SL-Uz-Wd9"/>
                     </view>
+                    <connections>
+                        <outlet property="NamaWisata" destination="bBf-KL-0f0" id="VuJ-Cb-aHC"/>
+                        <outlet property="imgGambar" destination="bJu-9Q-Ouv" id="u4R-ZV-6QM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z38-V4-gYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

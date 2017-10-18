@@ -10,10 +10,20 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var NamaWisata: UILabel!
+    @IBOutlet weak var imgGambar: UIImageView!
+    
+    //deklarasi variable untuk menampung data yang dikirim
+    var passnamawisata:String?
+    var passGambarWisata:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+//menampilkan data yang sudah dikirim
+       NamaWisata.text = passnamawisata
+        //menampilkan gambar
+        imgGambar.image = UIImage(named: passGambarWisata!)
+        
     }
 
     override func didReceiveMemoryWarning() {
